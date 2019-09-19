@@ -42,6 +42,7 @@ function App() {
           <button onClick = {() => updateAwayScore(awayScore + 1)} className="awayButtons__extraPoint">Away Extra Point</button>
           <button onClick = {() => updateAwayScore(0)} className="awayButtons__reset">Reset to Zero</button>
         </div>
+       
       </section>
     </div>
   );
